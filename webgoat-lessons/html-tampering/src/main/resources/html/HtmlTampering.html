@@ -23,6 +23,8 @@
                 document.getElementById("subtotal").innerHTML = '$' + total;
                 document.getElementById("totalAmount").innerHTML = '$' + total;
 
+                document.getElementById("total").innerHTML = '$' + price.toString();
+
                 $('#remove').click(function () {
                     document.getElementById("QTY").value = 1;
                     update();
